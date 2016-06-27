@@ -15,6 +15,7 @@
 		A01279041D20BA46009E6C2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A01279021D20BA46009E6C2A /* LaunchScreen.storyboard */; };
 		A012790F1D20BA46009E6C2A /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A012790E1D20BA46009E6C2A /* __Tests.m */; };
 		A012791A1D20BA46009E6C2A /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A01279191D20BA46009E6C2A /* __UITests.m */; };
+		A01279811D210921009E6C2A /* newViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A01279801D210921009E6C2A /* newViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A01279151D20BA46009E6C2A /* 推送UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "推送UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A01279191D20BA46009E6C2A /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
 		A012791B1D20BA46009E6C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A012797F1D210921009E6C2A /* newViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newViewController.h; sourceTree = "<group>"; };
+		A01279801D210921009E6C2A /* newViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				A01278F81D20BA46009E6C2A /* AppDelegate.m */,
 				A01278FA1D20BA46009E6C2A /* ViewController.h */,
 				A01278FB1D20BA46009E6C2A /* ViewController.m */,
+				A012797F1D210921009E6C2A /* newViewController.h */,
+				A01279801D210921009E6C2A /* newViewController.m */,
 				A01278FD1D20BA46009E6C2A /* Main.storyboard */,
 				A01279001D20BA46009E6C2A /* Assets.xcassets */,
 				A01279021D20BA46009E6C2A /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				A01278FC1D20BA46009E6C2A /* ViewController.m in Sources */,
 				A01278F91D20BA46009E6C2A /* AppDelegate.m in Sources */,
 				A01278F61D20BA46009E6C2A /* main.m in Sources */,
+				A01279811D210921009E6C2A /* newViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +504,7 @@
 				A01279201D20BA46009E6C2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A01279211D20BA46009E6C2A /* Build configuration list for PBXNativeTarget "推送Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				A01279231D20BA46009E6C2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A01279241D20BA46009E6C2A /* Build configuration list for PBXNativeTarget "推送UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				A01279261D20BA46009E6C2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
